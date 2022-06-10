@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Book Now 2</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            @font-face {
+                font-family: Afterglow;
+                src: url(Afterglow-Regular.ttf);
+            }
+            option {
+                border-color: #8AB0AB;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container-fluid" style="padding: 0px;">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top py-3 pt-4" style="background-color: #03120E; font-family: Afterglow;">
+                <div class="container-fluid">
+                    <a class="navbar-brand ms-4 me-5 h5" style="font-weight:500;" href="index.html">
+                        <img src="lotus.jpg" width="40" height="30" class="d-inline-block">
+                        Lotus Spa
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#spaNav" aria-controls="spaNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+            
+                    <div class="collapse navbar-collapse h5" style="font-weight:500;" id="spaNav">
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="locationandhours.html">Hours and Locations</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="ServiceAndRates.html">Service and Rates</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="Staff.html" >Our Staff</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" href="BookNow.html" >Book an appointment</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>            
+        </div>
+        <div class="container-fluid mt-5 py-5 text-center" style="background-color: #3E505B; height: 100%; color: white; font-family: Afterglow;">
+            <h1 class="display-4 text-center mt-5 pt-4 pb-4">Enter your personal information</h1>
+            <div class="container input-group input-group-lg my-5">
+                <input type="text" class="form-control py-3" style="background-color: #8AB0AB; border-color: #8AB0AB;" placeholder="Full Name" >
+            </div>
+            <div class="container input-group input-group-lg my-5">
+                <input type="text" class="form-control py-3" style="background-color: #8AB0AB; border-color: #8AB0AB;" placeholder="Phone Number" >
+            </div>
+            <div class="container input-group input-group-lg my-5">
+                <input type="email" class="form-control py-3" style="background-color: #8AB0AB; border-color: #8AB0AB;" placeholder="Email Address" >
+            </div>
+            <div class="container input-group input-group-lg my-5">
+                <input type="text" class="form-control py-3" style="background-color: #8AB0AB; border-color: #8AB0AB;" placeholder="Postal Code"  >
+            </div>
+            <div class="container mt-5 mb-2">
+                <select class="form-select form-select-lg py-3" style="background-color: #8AB0AB; border-color: #8AB0AB;" aria-label="Default select example">
+                    <option selected disabled>Select a Locker Room</option>
+                    <option value="1">Locker1</option>
+                    <option value="2">Locker2</option>
+                    <option value="3">Locker3</option>
+                </select>
+            </div>
+            <button type="button" class="btn btn-primary btn-lg my-4" onclick="window.location.href='Confirmation.html';" style="background-color: #8AB0AB; border-color: white; font-size: calc(1.3rem + 0.45vw); width: calc(30px + 10vw); text-align: center; color: black;">Next</button>
+        </div>
+        <div class="container-fluid" style="background-color: #03120E; color: white;">
+            © 1600, VeryRealCompanyInc.
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    </body>
+</html>
